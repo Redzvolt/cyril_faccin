@@ -5,9 +5,6 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-}
-
-body {
   text-align: center;
 }
 
@@ -40,6 +37,12 @@ main {
   padding: 24px;
 }
 
-footer {
-  text-align: center;
+li {
+  list-style: none;
+}
+
+footer a {
+  position: absolute;
+  right: 5em;
+  top: 40em;
 }
