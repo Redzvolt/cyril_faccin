@@ -2,12 +2,16 @@
 /* button.css s'occupe des boutons */
 /* navbar.css s'occupe des navbar */
 /* list.css s'occupe des listes et leur conteneur */
+/* text.css s'occupe des textes */
+/* form.css s'occupe des formulaires */
 /* section.css s'occupe des sections du main de l'index et de leurs div enfants */
 
 @import "list.css";
 @import "button.css";
 @import "navbar.css";
 @import "section.css";
+@import "text.css";
+@import "form.css";
 
 * {
   margin: 0;
@@ -51,13 +55,19 @@ main {
   gap: 2rem;
 }
 
+.cv_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+
 footer {
-  position: fixed;
   padding: 12px 0;
   text-align: center;
   border-top: 2px solid #cccccc;
   width: 100%;
-  bottom: 0;
 }
 
 #scrollup {

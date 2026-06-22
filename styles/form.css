@@ -1,0 +1,60 @@
+form {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.form_direction {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1rem;
+  width: 100%;
+}
+
+input {
+  text-align: left;
+}
+
+.dual_width {
+  width: 38.8%;
+}
+
+.only_width {
+  width: 85.88%;
+}
+
+.address_width {
+  width: 88.09%;
+}
+
+.first_width {
+  width: 40.48%;
+}
+
+.second_width {
+  width: 27.66%;
+}
+
+.mail_width {
+  width: 89.4%;
+}
+
+.comment_direction {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1rem;
+  width: 100%;
+}
+
+.comment {
+  width: 100%;
+  height: 10rem;
+  text-align: left;
+}

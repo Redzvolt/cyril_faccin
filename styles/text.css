@@ -1,0 +1,8 @@
+p, a, button, ul, li, label, input, textarea {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.introduction {
+  width: 40%;
+}

@@ -22,27 +22,51 @@
 
   <main>
     <h1>Contact</h1>
-    <p>Si vous désirez me contacter, vous pouvez le faire via mes réseaux, le formulaire de contact ci-dessous ou l'adresse mail Cyril.faccin@outlook.fr</p>
+    <p>Si vous désirez me contacter, vous pouvez le faire via mes réseaux, le formulaire de contact ci-dessous ou l'adresse mail : Cyril.faccin@outlook.fr</p>
     <nav class="nav_section">
       <a class="button" href="./contact.html">Contact</a>
       <a href="https://www.linkedin.com/in/cyril-faccin" target="_blank">LinkedIn</a>
       <a href="https://github.com/Redzvolt" target="_blank">Github</a>
     </nav>
     <form>
-      <label>Nom</label>
-      <input>
-      <label>Prénom</label>
-      <input>
-      <label>Adresse</label>
-      <input>
-      <label>Entreprise</label>
-      <input>
-      <label>Numéro de Téléphone</label>
-      <input>
-      <label>E-mail</label>
-      <input>
-      <label>Commentaire</label>
-      <input>
+      <div class="form_direction">
+        <label for="nom">Nom :</label>
+        <input id="nom" class="dual_width" type="text">
+        <label for="prenom">Prénom :</label>
+        <input id="prenom" class="dual_width" type="text">
+      </div>
+      <div class="form_direction">
+        <label for="entreprise">Entreprise :</label>
+        <input id="entreprise" class="only_width" type="text">
+      </div>
+      <div class="form_direction">
+        <label for="adresse">Adresse :</label>
+        <input id="adresse" class="address_width" type="text">
+      </div>
+      <div class="form_direction">
+        <label for="code_postal">Pays :</label>
+        <input id="code_postal" class="first_width" type="text">
+        <label for="ville">Ville :</label>
+        <input id="ville" class="first_width" type="text">
+      </div>
+      <div class="form_direction">
+        <label for="code_postal">Code Postal :</label>
+        <input id="code_postal" class="second_width" type="text">
+        <label for="telephone">Numéro de Téléphone :</label>
+        <input id="telephone" class="second_width" type="tel">
+      </div>
+      <div class="form_direction">
+        <label for="email">E-mail :</label>
+        <input id="email" class="mail_width" type="email">
+      </div>
+      <div class="comment_direction">
+        <label for="commentaire">Commentaire :</label>
+        <textarea name="comment" id="commentaire" class="comment"></textarea>
+      </div>
+      <div class="row_direction">
+        <input type="submit" value="Envoyer mon message" class="button">
+        <button class="button" type="reset">Annuler</button>
+      </div>
     </form>
   </main>
 
