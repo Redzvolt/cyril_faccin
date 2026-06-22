@@ -1,0 +1,17 @@
+.main_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  height: 50rem;
+}
+
+.row_direction {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 5rem;
+  height: 10rem;
+}
