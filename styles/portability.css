@@ -1,0 +1,10 @@
+@media only screen and (max-width: 768px) {
+  .form_width {
+    width: 300px;
+  }
+  .form_direction {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}

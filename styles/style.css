@@ -5,13 +5,17 @@
 /* text.css s'occupe des textes */
 /* form.css s'occupe des formulaires */
 /* section.css s'occupe des sections du main de l'index et de leurs div enfants */
+/* animation.css s'occupe des animations sur les boutons, le formulaire et le scrollup */
+/* portability.css s'occupe de la portabilité du site sur les différents appareils et tailles d'écran */
 
 @import "list.css";
 @import "button.css";
 @import "navbar.css";
 @import "section.css";
+@import "animation.css";
 @import "text.css";
 @import "form.css";
+@import "portability.css";
 
 * {
   margin: 0;
@@ -29,7 +33,6 @@ header {
 }
 
 .background {
-  background-image: radial-gradient(#101010, #cccccc);
   width: 16.66%;
   display: flex;
   flex-direction: row;
@@ -65,19 +68,22 @@ main {
 
 footer {
   padding: 12px 0;
-  text-align: center;
   border-top: 2px solid #cccccc;
   width: 100%;
 }
 
 #scrollup {
   position: fixed;
-  bottom: 20px;
-  right: 20px;
+  bottom: 30px;
+  right: 30px;
   background-color: #cccccc;
   color: #101010;
   border: none;
   border-radius: 50px;
-  padding: 10px 20px;
+  padding: 25px;
   cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
