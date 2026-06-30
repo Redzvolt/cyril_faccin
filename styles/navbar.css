@@ -6,7 +6,7 @@
   gap: 2rem;
 }
 
-a {
+.flex_link {
   display: flex;
   flex-direction: row;
   justify-content: center;

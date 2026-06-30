@@ -1,5 +1,5 @@
 form {
-  width: 743px;
+  width: 875px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -25,23 +25,23 @@ input {
 }
 
 .only_width {
-  width: 85.88%;
+  width: 85.4%;
 }
 
 .address_width {
-  width: 88.09%;
+  width: 87.8%;
 }
 
 .first_width {
-  width: 40.48%;
+  width: 40.5%;
 }
 
 .second_width {
-  width: 27.66%;
+  width: 26.9%;
 }
 
 .mail_width {
-  width: 89.4%;
+  width: 89.2%;
 }
 
 .comment_direction {
