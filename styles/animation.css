@@ -1,5 +1,4 @@
 #scrollup:hover {
-  color: #2f00ff;
   animation-name: scrollup;
   animation-duration: 1s;
   animation-timing-function: linear;
@@ -7,18 +6,18 @@
 }
 
 .background a:hover {
-  background-image: radial-gradient(#101010, #cccccc);
-  color: #cccccc;
+  background-image: radial-gradient(#ff8811, #001242);
+  color: #101010;
 }
 
 .button:hover {
-  background-color: #101010;
-  border: 2px solid #101010;
-  color: #cccccc;
+  background-color: #001242;
+  border: 2px solid #001242;
+  color: #fcfcfc;
 }
 
 .input:target, .textarea:target {
-  border: 2px solid #101010;
+  border: 2px solid #001242;
 }
 
 @keyframes scrollup {

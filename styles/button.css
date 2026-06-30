@@ -1,10 +1,11 @@
 .button {
-  background-color: #ff0000;
-  border: 2px solid #ff0000;
+  background-color: #ff8811;
+  border: 2px solid #ff8811;
   border-radius: 4px;
-  color: #fcfcfc;
+  color: #101010;
   padding: 12px 24px;
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }

@@ -1,4 +1,7 @@
 @media only screen and (max-width: 768px) {
+  .form_section {
+    height: auto;
+  }
   .form_width {
     width: 300px;
   }
@@ -6,5 +9,28 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  }
+  p {
+    padding: 0 10px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .row_direction {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  #scrollup {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .nav_section {
+    display: none;
   }
 }

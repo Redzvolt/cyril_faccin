@@ -1,10 +1,8 @@
-const scrollup = document.getElementById("scrollup");
+const scroll = document.getElementById("scrollup");
 
-scrollup.addEventListener("click", (event) => {
-  event.preventDefault();
-  window.scroll({
+scroll.addEventListener("click", () => {
+  window.scrollTo({
     top: 0,
-    left: 0,
-    behavior: "smooth",
+    behavior: "smooth"
   });
 });

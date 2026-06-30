@@ -1,10 +1,12 @@
-.main_section {
+.main_section, .form_section {
+  padding: 24px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 2rem;
-  height: 50rem;
+  height: 60rem;
+  width: 100%;
 }
 
 .row_direction {
@@ -13,4 +15,18 @@
   justify-content: center;
   align-items: flex-start;
   gap: 5rem;
+}
+
+.width_100 {
+  width: 100%;
+}
+
+.blue_background {
+  background-color: #001242;
+  color: #fcfcfc;
+}
+
+.white_background {
+  background-color: #fcfcfc;
+  color: #001242;
 }

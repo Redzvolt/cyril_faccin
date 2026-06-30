@@ -29,7 +29,7 @@ header {
   width: 100%;
   padding: 6px 0;
   display: flex;
-  background-color: #cccccc;
+  background-color: #001242;
 }
 
 .background {
@@ -42,20 +42,14 @@ header {
 
 .background a {
   width: 100%;
-  background-color: #cccccc;
+}
+
+a {
+  color: #fcfcfc;
 }
 
 .border-left {
-  border-left: 2px solid #cccccc;
-}
-
-main {
-  padding: 24px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 2rem;
+  border-left: 2px solid #fcfcfc;
 }
 
 .cv_container {
@@ -66,24 +60,39 @@ main {
   gap: 1rem;
 }
 
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.padding-top {
+  padding-top: 24px;
+}
+
 footer {
   padding: 12px 0;
-  border-top: 2px solid #cccccc;
+  border-top: 2px solid #fcfcfc;
   width: 100%;
+  background-color: #001242;
+  color: #fcfcfc;
 }
 
 #scrollup {
   position: fixed;
   bottom: 30px;
   right: 30px;
-  background-color: #cccccc;
-  color: #101010;
-  border: none;
+  background-color: #ff8811;
+  background-image: url("../images/arrow-up-solid.png");
+  background-size: 40px 40px;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 75px;
+  height: 75px;
   border-radius: 50px;
-  padding: 25px;
+  border: none;
   cursor: pointer;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
