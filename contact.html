@@ -31,38 +31,39 @@
     <section class="form_section white_background">
       <form class="form_width">
         <div class="form_direction form_width">
-          <label for="nom">Nom :</label>
-          <input id="nom" class="dual_width form_width" type="text">
+          <label for="nom">Nom : <span class="req">*</span></label>
+          <input id="nom" class="dual_width form_width input_focus" autocomplete="name" type="text" required>
           <label for="prenom">Prénom :</label>
-          <input id="prenom" class="dual_width form_width" type="text">
+          <input id="prenom" class="dual_width form_width input_focus" autocomplete="given-name" type="text">
         </div>
         <div class="form_direction form_width">
-          <label for="entreprise">Entreprise :</label>
-          <input id="entreprise" class="only_width form_width" type="text">
+          <label for="entreprise">Entreprise : <span class="req">*</span></label>
+          <input id="entreprise" class="only_width form_width input_focus" autocomplete="organization" type="text" required>
         </div>
         <div class="form_direction form_width">
           <label for="adresse">Adresse :</label>
-          <input id="adresse" class="address_width form_width" type="text">
+          <input id="adresse" class="address_width form_width input_focus" autocomplete="street-address" type="text">
         </div>
         <div class="form_direction form_width">
-          <label for="code_postal">Pays :</label>
-          <input id="code_postal" class="first_width form_width" type="text">
-          <label for="ville">Ville :</label>
-          <input id="ville" class="first_width form_width" type="text">
+          <label for="country">Pays : <span class="req">*</span></label>
+          <input id="country" class="first_width form_width input_focus" autocomplete="country" type="text" required>
+          <label for="ville">Ville : <span class="req">*</span></label>
+          <input id="ville" class="first_width form_width input_focus" autocomplete="locality" type="text" required>
         </div>
         <div class="form_direction form_width">
-          <label for="code_postal">Code Postal :</label>
-          <input id="code_postal" class="second_width form_width" type="text">
-          <label for="telephone">Numéro de Téléphone :</label>
-          <input id="telephone" class="second_width form_width" type="tel">
+          <label for="code_postal">Code Postal : <span class="req">*</span></label>
+          <input id="code_postal" class="second_width form_width input_focus" autocomplete="postal-code" type="text" required>
+          <label for="telephone">Numéro de Téléphone : <span class="req">*</span></label>
+          <input id="telephone" class="second_width form_width input_focus" autocomplete="tel" type="tel" required><span class="display-none" id="validation"></span>
         </div>
         <div class="form_direction form_width">
-          <label for="email">E-mail :</label>
-          <input id="email" class="mail_width form_width" type="email">
+          <label for="email">E-mail : <span class="req">*</span></label>
+          <input id="email" class="mail_width form_width input_focus" autocomplete="email" type="email" required><span class="display-none" id="validation"></span>
         </div>
         <div class="comment_direction form_width">
           <label for="commentaire">Commentaire :</label>
           <textarea name="comment" id="commentaire" class="comment form_width"></textarea>
+          <p><span class="req">*</span> - Champ obligatoire</p>
         </div>
         <div class="form_direction form_width">
           <input type="submit" value="Envoyer mon message" class="button">
@@ -78,5 +79,6 @@
   </footer>
 
   <script src="./javascript/scroll.js"></script>
+  <script src="./javascript/form.js"></script>
 </body>
 </html>

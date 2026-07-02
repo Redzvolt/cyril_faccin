@@ -96,3 +96,7 @@ footer {
   border: none;
   cursor: pointer;
 }
+
+.display-none {
+  display: none;
+}

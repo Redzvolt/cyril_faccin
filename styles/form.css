@@ -16,16 +16,20 @@ form {
   width: 100%;
 }
 
+.req {
+  color: #001242;
+}
+
 input {
   text-align: left;
 }
 
 .dual_width {
-  width: 38.8%;
+  width: 37.7%;
 }
 
 .only_width {
-  width: 85.4%;
+  width: 83.3%;
 }
 
 .address_width {
@@ -33,15 +37,15 @@ input {
 }
 
 .first_width {
-  width: 40.5%;
+  width: 38.5%;
 }
 
 .second_width {
-  width: 26.9%;
+  width: 24.8%;
 }
 
 .mail_width {
-  width: 89.2%;
+  width: 87.1%;
 }
 
 .comment_direction {
