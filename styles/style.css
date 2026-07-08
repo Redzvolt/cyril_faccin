@@ -3,6 +3,7 @@
 /* navbar.css s'occupe des navbar */
 /* list.css s'occupe des listes et leur conteneur */
 /* text.css s'occupe des textes */
+/* images.css s'occupe des images */
 /* form.css s'occupe des formulaires */
 /* section.css s'occupe des sections du main de l'index et de leurs div enfants */
 /* animation.css s'occupe des animations sur les boutons, le formulaire et le scrollup */
@@ -14,6 +15,7 @@
 @import "section.css";
 @import "animation.css";
 @import "text.css";
+@import "images.css";
 @import "form.css";
 @import "portability.css";
 
