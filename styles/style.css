@@ -41,16 +41,26 @@ header {
   align-items: center;
 }
 
-.background a {
-  width: 100%;
-}
-
 a {
   color: #fcfcfc;
 }
 
 .border-left {
   border-left: 2px solid #fcfcfc;
+}
+
+.border-top {
+  border-top: 2px solid #fcfcfc;
+}
+
+.menu, .menu_links {
+  display: none;
+}
+
+.bar {
+  background-color: #101010;
+  width: 30px;
+  height: 4px;
 }
 
 .cv_container {
