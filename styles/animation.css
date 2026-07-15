@@ -14,6 +14,7 @@
   background-color: #001242;
   border: 2px solid #fcfcfc;
   color: #fcfcfc;
+  box-shadow: 0 0 5px 5px #ff8811;
 }
 
 .input_focus:focus, textarea:focus {

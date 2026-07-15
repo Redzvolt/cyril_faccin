@@ -1,11 +1,14 @@
+/* style.css contient un réinitialisateur CSS, le style de base du body et les liens vers les autres fichiers CSS */
+/* Ce fichier s'occupe de la portabilité du site sur les différents appareils et tailles d'écran */
+
 @media only screen and (max-width: 900px) {
-  .form_section {
+  .form_section, .main_section {
     height: auto;
   }
   .form_width {
     width: 300px;
   }
-  .form_direction {
+  .form_direction, .row_direction {
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -13,28 +16,29 @@
   p {
     padding: 0 10px;
   }
-  .image_container img, .cv_container img {
+  .cv_container img {
     display: none;
+  }
+  .parcours {
+    width: 100%;
   }
 }
 
 @media only screen and (max-width: 500px) {
-  .row_direction {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
   .introduction {
     text-align: center;
   }
-  .main_section {
-    height: auto;
+  .background {
+    display: none;
   }
 }
 
 @media only screen and (max-width: 425px) {
   #scrollup {
     display: none;
+  }
+  .image_container img {
+    width: 100%;
   }
 }
 

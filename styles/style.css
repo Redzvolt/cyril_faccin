@@ -1,4 +1,4 @@
-/* Ce fichier contient un réinitialisateur CSS, le style de base du body et un lien vers les autres fichiers CSS */
+/* Ce fichier contient un réinitialisateur CSS, le style de base du body et les liens vers les autres fichiers CSS sauf portability.css */
 /* button.css s'occupe des boutons */
 /* navbar.css s'occupe des navbar */
 /* list.css s'occupe des listes et leur conteneur */
@@ -9,15 +9,14 @@
 /* animation.css s'occupe des animations sur les boutons, le formulaire et le scrollup */
 /* portability.css s'occupe de la portabilité du site sur les différents appareils et tailles d'écran */
 
-@import "list.css";
+@import "animation.css";
 @import "button.css";
+@import "form.css";
+@import "images.css";
+@import "list.css";
 @import "navbar.css";
 @import "section.css";
-@import "animation.css";
 @import "text.css";
-@import "images.css";
-@import "form.css";
-@import "portability.css";
 
 * {
   margin: 0;
@@ -97,8 +96,4 @@ footer {
   border-radius: 50px;
   border: none;
   cursor: pointer;
-}
-
-.display-none {
-  display: none;
 }
