@@ -21,6 +21,18 @@
   }
 }
 
+@media only screen and (max-width: 768px) {
+  .images_projet {
+    width: 400px;
+  }
+  .images_projet::scroll-button(*) {
+    display: none;
+  }
+  .images_projet .image_container img {
+    width: 400px;
+  }
+}
+
 @media only screen and (max-width: 500px) {
   .introduction {
     text-align: center;
@@ -63,8 +75,14 @@
   #scrollup {
     display: none;
   }
-  .image_container img {
+  .row_direction .image_container img {
     width: 100%;
+  }
+  .images_projet {
+    width: 250px;
+  }
+  .images_projet .image_container img {
+    width: 250px;
   }
 }
 

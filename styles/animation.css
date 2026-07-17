@@ -35,6 +35,16 @@ input:autofill {
   border: 2px solid #001042;
 }
 
+.images_projet::scroll-button(*):hover,
+.images_projet::scroll-button(*):focus {
+  opacity: 1;
+}
+
+.image_container::scroll-marker:target-current {
+  background-color: #101010;
+  border: 2px solid #ff8811;
+}
+
 @keyframes scrollup {
   0% {
     transform: scale(1);
