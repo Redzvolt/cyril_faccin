@@ -1,13 +1,10 @@
 .image_container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   gap: 12px;
 }
 
 .carousel {
-  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -16,7 +13,6 @@
 
 .images_projet {
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
   width: 600px;
@@ -27,14 +23,14 @@
 }
 
 .images_projet .image_container {
-  scroll-snap-align: start;
+  scroll-snap-align: center;
 }
 
-.images_projet::scroll-button(*) {
+.carousel-button {
   background-color: #ff8811;
   color: #101010;
   border: none;
-  padding: 6px 16px;
+  padding: 6px 18px;
   cursor: pointer;
   font-size: 24px;
   border-radius: 50%;
@@ -46,17 +42,15 @@
   align-items: center;
 }
 
-.images_projet::scroll-button(left) {
-  content: "❮" / "Previous";
+#lgprev, #psprev {
   left: 30%;
 }
 
-.images_projet::scroll-button(right) {
-  content: "❯" / "Next";
+#lgnext, #psnext {
   right: 30%;
 }
 
-.images_projet::scroll-marker-group {
+.scrollbar {
   position: relative;
   position-anchor: carousels;
   display: flex;
@@ -65,10 +59,22 @@
   bottom: -5px;
 }
 
-.image_container::scroll-marker {
+.marker {
   content: attr(data-accName);
   padding: 8px;
   background-color: #ff8811;
   border: 2px solid #101010;
   border-radius: 50%;
+  cursor: pointer;
+}
+
+.active {
+  position-anchor: carousels;
+  position: absolute;
+  right: 34%;
+}
+
+.active_marker {
+  background-color: #101010;
+  border: 2px solid #ff8811;
 }
